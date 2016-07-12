@@ -31,7 +31,7 @@ describe("test catchMonster", function() {
  it("should return false", function() {  
     var monster = MonsterModel;
       monster.init();
-            var n = monster.catchMonster("bulbasaur");
+      var n = monster.catchMonster("bulbasaur");
       expect(n).not.toBe(0);
   });  
 

@@ -43,7 +43,7 @@ var MonsterModel = {
         return false;
       }
       var cur = MonsterModel.collection[0];
-      alert(cur.name);
+      
     if (cur.name == monsterName)
       {
         return true;
